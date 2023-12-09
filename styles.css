@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 60%;
+    margin: auto;
+    
+}
+.navbar {
+    display: flex;
+    justify-content: center; 
+    color: black;
+    font-size: large;
+    padding: 20px 0px;
+    position: sticky;
+    top: 0;
+    background-color: rgba(242, 224, 188, 0.734);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(242, 224, 188, 0.734),
+        white
+        );
+    backdrop-filter: blur(2.5px);
+    }
+
+.nav-list-container {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; /* To evenly distribute items */
+    align-items: center; /* To center items vertically */
+    
+}
+
+.nav-list {
+    margin: 0 10px; /* Add spacing between items */
+}
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 200;
+}
+a{
+    text-decoration: none;
+}
+.horizontal-line-up {
+    border: 0;
+    border-top: 1px solid black; /* Adjust thickness and color as needed */
+    margin: 10px 0 2.5px 0; /* Adjust margin to create space between lines and content */
+}
+
+.horizontal-line-down {
+    border: 0;
+    border-top: 1px solid black; /* Adjust thickness and color as needed */
+    margin: 2.5px 0 10px 0 ; /* Adjust margin to create space between lines and content */
+}
+#profile{
+    /* border: 1px solid red; */
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+#pro-pic {
+    width: 135px;
+    height: auto;
+    border-radius: 5px;
+    margin: 0 10px 0 0;
+}
+
+.section-title{
+    margin: 10px 0px 10px 0px;
+}
+.title-heading{
+    margin: 10px 0px 10px 0px;
+}
+.list-items{
+    list-style-type: square;
+}
+.list-items, ol > li{
+    margin: 0px 0px 0px 40px;
+}
+
+#academic-table, #language-table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+.non-border-table {
+    border-collapse: collapse;
+    border: none;
+}
+.non-border-table th {
+    border: none;
+    padding: 1px;
+    font-weight: 100;
+}
+.non-border-table td {
+    border: none;
+    padding: 2.5px 0;
+}
+#footer-section{
+    margin: 10px 0 50px 0;
+    background-image: linear-gradient(
+        to bottom,
+        white,
+        rgba(242, 224, 188, 0.734),
+    );
+}
